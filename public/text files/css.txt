@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("./todobg.jpg");
+}
+
+.root {
+  margin: auto;
+  width: 60%;
+
+  text-align: center;
+  margin-top: 30px;
+}
+
+.inp {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.inpFld {
+  width: 400px;
+  height: 30px;
+  font-size: 30px;
+  padding: 15px;
+}
+.main {
+}
+
+ion-icon {
+  color: blue;
+  font-size: 60px;
+}
+
+.addBtn {
+  color: green;
+  font-size: 40px;
+}
+
+.delAll {
+  color: red;
+  font-size: 40px;
+}
+
+.todoChild {
+  background-color: white;
+  width: 400px;
+  height: 60px;
+  font-size: 30px;
+  padding: 15px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  border: 2px solid brown;
+  box-shadow: 4px 4px 4px brown;
+  list-style-type: none;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.editBtn {
+  margin-left: 15px;
+  margin-right: 15px;
+
+  width: 80px;
+  height: 40px;
+  background-color: lightgreen;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.delBtn {
+  margin-left: 2px;
+  margin-right: 15px;
+
+  width: 80px;
+  height: 40px;
+  background-color: rgb(253, 89, 77);
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
